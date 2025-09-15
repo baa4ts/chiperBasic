@@ -1,41 +1,38 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build Folders
+[xX]64/
+Release/
+Debug/
+build/
+
+# Visual C++ intermediate files
 *.obj
-
-# Precompiled Headers
-*.gch
 *.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
+*.idb
 *.pdb
+*.ipch
+*.tlog
+*.log
+*.lastbuildstate
+*.lib.recipe
+*.Build.CppClean.log
+*.FileListAbsolute.txt
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# Generated binaries
 *.lib
-
-# Executables
+*.dll
 *.exe
-*.out
-*.app
 
-# debug information files
-*.dwo
+# Precompiled header
+pch.h
+pch.cpp
+
+# Ignore system files
+Thumbs.db
+Desktop.ini
