@@ -29,10 +29,6 @@ build/
 *.dll
 *.exe
 
-# Precompiled header
-pch.h
-pch.cpp
-
 # Ignore system files
 Thumbs.db
 Desktop.ini
